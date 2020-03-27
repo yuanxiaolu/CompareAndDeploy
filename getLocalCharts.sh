@@ -1,6 +1,6 @@
 if [ -z "$1" ];
 then
-ip="...";
+ip="";
 else
 ip=$1;
 fi
