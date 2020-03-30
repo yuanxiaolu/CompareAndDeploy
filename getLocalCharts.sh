@@ -7,5 +7,5 @@ fi
 
 file="LocalCharts.txt"
 
-ssh root@${ip} 'for file in `kubectl get pods --all-namespaces -o jsonpath="{.items[*].spec.containers[*].image}"`;do echo $file;done | awk -F\/ "{print $NF}" | sort | uniq' > ./${file}
-sed -i 's/.*\///' ${file}
+line='$9'
+ssh root@${ip} "helm list --col-width 200 | sed 1d | awk '{print $line}' | sort | uniq"  > ./${file}
