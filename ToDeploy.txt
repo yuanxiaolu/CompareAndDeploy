@@ -1,5 +1,0 @@
-gpu-searcher:2.1.0-guard-v1.x.x-247v2-67c3280
-jaeger-agent:1.10
-jaeger-collector:1.10
-jaeger-es-index-cleaner
-spark-dependencies
