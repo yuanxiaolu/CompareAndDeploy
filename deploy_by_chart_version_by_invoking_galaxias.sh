@@ -2,10 +2,10 @@
 
 todeployfile="ToDeploy.txt"
 
-if [ $1 -eq "15" ];then _PROJECT_ENV_ID="5"
-elif [ $1 -eq "241" ];then _PROJECT_ENV_ID="83"
-elif [ $1 -eq "65" ];then _PROJECT_ENV_ID="118"
-elif [ $1 -eq "96" ];then _PROJECT_ENV_ID="151"
+if [ $1 -eq "" ];then _PROJECT_ENV_ID="1"
+elif [ $1 -eq "" ];then _PROJECT_ENV_ID="2"
+elif [ $1 -eq "" ];then _PROJECT_ENV_ID="3"
+elif [ $1 -eq "" ];then _PROJECT_ENV_ID="4"
 else echo "PROJECT_ENV_ID was not configured!" exit
 fi
 
