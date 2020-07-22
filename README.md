@@ -19,4 +19,4 @@ ssh-copy-id root@ip
 4. 打开log.txt查看其他信息，比如多个pod；Inputs.txt未给出版本号的chart
 
 ### 未完成功能
-1. 直接调用运维平台发布不一致的chart
+1. 直接调用接口对比较结果进一步处理
